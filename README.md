@@ -3,6 +3,8 @@ morph [![License](http://img.shields.io/:license-gpl3-blue.svg)](http://www.gnu.
 
 Морфологический анализатор русского языка, использующий словари [pymorphy2](https://github.com/kmike/pymorphy2).
 
+Изначально копировался в github, потому что goget категорически отказался брать проект из gitlab-а.
+
 ## Установка
 
 Пакет:
@@ -19,7 +21,7 @@ morph [![License](http://img.shields.io/:license-gpl3-blue.svg)](http://www.gnu.
 package main
 import (
     "fmt"
-    "gitlab.com/opennota/morph"
+    "github.com/vbatushev/morph"
 )
 func main() {
     // loading the dictionary data
